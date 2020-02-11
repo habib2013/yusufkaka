@@ -273,7 +273,9 @@ input[type="radio"],
 input[type="checkbox"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0; }
+  padding: 0;
+  border: 2px solid #4CDCFC;
+}
 
 input[type="date"],
 input[type="time"],
@@ -9923,7 +9925,127 @@ transition-delay: 0.6s;
       transition-delay: 0s;
       } 
 
+      /* Lets talk page starts */
+      .newimagelogo {
+        width: 75px;
+        height: 40px;
+      }
+.firstside {
+  background: #ffffff;
+  width: 50%;
+  height: 600px;
+  padding-top: 18%;
+}
 
+.contactus {
+color: #000000;
+  font-family: 'Cera Pro';
+font-weight: 100;
+font-size: 15px;
+font-style: normal;
+width: 100px;
+}
+.talking {
+  color: #000000;
+  font-family: 'Cera Pro';
+font-weight: 100;
+font-size: 71px;
+font-style: normal;
+width: 390px;
+  }
+  .retalk {
+    width: 390px;
+  }
+.secondside {
+  background: rgba(27, 197, 239, 0.08);
+  width: 55.5%;
+  height: 800px;
+margin-left: 600px;
+padding-top: 27%;
+margin-top: -600px;
+}
+.mycontainer {
+  margin-left: 13%;
+  margin-right:13%
+}
+
+.movemedown {
+  margin-top: 217px;
+}
+.widthee {
+padding: 15px 20px 15px 20px;
+}
+.imgcontrls {
+  width: 570px;
+  height: 600px;
+  margin-top: 300px;
+
+}
+.talkingsection {
+  margin-top: 450px;
+  margin-bottom: 150px;
+}
+.alltalks {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 47px;
+  color: black;
+}
+.designname {
+  background:  #1BC5EF;
+  border-radius: 3px;
+  padding:5px;
+  color: #ffffff;
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-size: 12px;
+  width: 90px;
+}
+.ourinput {
+  width: 100%;
+  border: 1px solid #1BC5EF;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  height: 50px;
+  padding: 3px;
+  color: #000000;
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-size: 16px;
+}
+.ourtextinput {
+  width: 100%;
+  border: 1px solid #1BC5EF;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  height: 150px;
+  padding: 3px;
+  color: #000000;
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-size: 16px;
+}
+.chekie {
+ border: 2px solid #1BC5EF;
+ border-radius: 1px;
+ color: #1BC5EF;
+}
+.capitale {
+  color: #000000;
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-size: 12px;
+ margin-left: 10px;
+}
+
+
+/* .fullstop {
+  width: 10px;
+  height: 10px;
+  background: #4CDCFC;
+} */
+/* lets talk page ends */
 @media (max-width: 768px) {
   .largecompanies {
    display: none;

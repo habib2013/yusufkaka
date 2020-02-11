@@ -1,0 +1,80 @@
+
+.socialui {
+position: absolute;
+transform: translate(-50%,-50% );
+display: flex;
+margin-left: 70px;
+width: 320px;
+
+}
+.socialui:before {
+content: '\f1e0';
+font-family: fontawesome ;
+position: relative;
+width: 50px;
+height: 50px;
+background: #4CDCFC;
+border-radius: 30px;
+text-align: center;
+line-height: 60px;
+color: #fff;
+font-size: 30px;
+margin: 0 2px;
+transition: 0.5s;
+border: 1px solid #ffffff;
+z-index: 1;
+border: 50%;
+}
+
+
+
+.socialui li {
+  list-style: none;
+  transition: 1s;
+}
+.socialui li a {
+  display: block;
+  color: #ffffff;
+ width: 60px;
+ height: 60px;
+ line-height: 60px;
+ text-align: center;
+ 
+ margin:0 2px;
+ border-radius: 50%;
+ font-size: 30px;
+ border: 1px solid #ffffff;
+ 
+}
+
+.socialui:hover:before {
+  width: 60px;
+}
+
+.socialui li:nth-child(1) a {
+  background:transparent;
+  
+}
+
+
+.socialui:hover li:nth-child(1) a {
+transform: translateX(40px) rotate(360deg);
+  
+}maybe
+.socialui:hover li:nth-child(2) a {
+  transform: translateX(60px) rotate(360deg);
+    
+  }
+
+  .socialui:hover li:nth-child(3) a {
+    transform: translateX(80px) rotate(360deg);
+      
+    }
+    .socialui:hover li:nth-child(4) a {
+      transform: translateX(100px) rotate(360deg);
+        
+      }
+      .socialui:hover li:nth-child(5) a {
+        transform: translateX(120px) rotate(360deg);
+          
+        }
